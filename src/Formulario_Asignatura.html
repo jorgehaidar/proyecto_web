@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Asignatura</title>
+</head>
+<body>
+    <div class="dialog-container" id="manageProductDialog">
+        <div class="dialog-box">
+            <h2>Asignatura</h2>
+            <form>
+                <div class="form-group">
+                    <label for="subjectName">Nombre:</label>
+                    <select id="subjectName" required>
+                        <option value="" disabled selected>Seleccione una asignatura</option>
+                        <!-- Debes agregar las opciones de asignaturas aquí -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="age">Año:</label>
+                    <select id="age" required>
+                        <option value="" disabled selected>Seleccione un año</option>
+                        <option value="1">1ro</option>
+                        <option value="2">2do</option>
+                        <option value="3">3ro</option>
+                        <option value="4">4to</option>
+                        <option value="5">5to</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="category">Curso:</label>
+                    <select id="category" required>
+                        <option value="" disabled selected>Seleccione un curso</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Horas:</label>
+                    <input type="number" id="quantity" min="1" max="200" required>
+                </div>
+                <div class="button-container">
+                    <button>Guardar</button>
+                    <button class="cancel-button">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

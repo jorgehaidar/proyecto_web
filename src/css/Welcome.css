@@ -1,0 +1,66 @@
+body {
+	background-color: rgb(15, 15, 50);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#Contenedor {
+	width: 1000px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 25px;
+	display: grid; /* Utiliza CSS Grid para dividir en dos columnas */
+	grid-template-columns: 1fr 1fr; /* Divide en dos columnas de igual ancho */
+	
+	/* grid-gap: 20px; /* Espacio entre las columnas */
+	text-align: center; /* Centra el contenido horizontalmente en ambas columnas */
+}
+
+.columna-izquierda {
+    flex: 1; /* Para que ocupe el espacio disponible */
+    text-align: center;
+	border-top-left-radius: 25px; /* Agrega el borde izq arriba curvo*/
+	border-end-start-radius: 25px; /* Agrega el borde izq abajo curvo*/
+	background-color: rgb(243, 243, 243);
+}
+.columna-derecha {
+    flex: 1; /* Para que ocupe el espacio disponible */
+    text-align: center;
+	border-top-right-radius: 25px; /* Agrega el borde der arriba curvo*/
+	border-end-end-radius: 25px; /* Agrega el borde der abajo curvo*/
+	background-color: rgb(233, 233, 233);
+
+}
+/* Línea vertical punteada */
+h1 {
+	color: rgb(5, 5, 5);
+	font-size: 85px;
+}
+#logo {
+	width: 150px;
+	padding: 10px;
+}
+
+p {
+	color: rgb(5, 5, 5);
+	font-size: 40px;
+	padding: 25px;
+}
+ul{
+	color: rgb(5, 5, 5);
+	font-size: 25px;
+	text-align: left;
+}
+li{
+	color: rgb(5, 5, 5);
+	font-size: 35px;
+}
+strong{
+	color: rgb(5, 5, 5);
+	font-size: 25px;
+	text-align: right;
+}
+
